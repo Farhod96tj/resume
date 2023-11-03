@@ -1,0 +1,211 @@
+body {
+    font-family: 'Roboto', sann-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: 0f141e;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text p{
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.btn {
+    background: #000;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.navbar {
+    background: rgb(204, 210, 212);
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li a {
+    color: #000;
+    text-transform: uppercase;    
+}
+
+.navbar ul li a:hover {
+    color: #eee;
+}
+
+.navbar ul li {
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul li:hover {
+    background: #463f3f;
+    border-radius: 10px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+@media (max-width: 650px) {
+    body {
+        background-image: url(https://abrakadabra.fun/uploads/posts/2022-01/1641093872_1-abrakadabra-fun-p-nezhno-rozovoe-nebo-2.jpg;) 
+    }
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .form-row {
+        display: block;
+    }
+    
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
